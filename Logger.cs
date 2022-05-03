@@ -8,7 +8,7 @@ namespace GoodMatchTester
 {
     public class Logger
     {
-        //Write logs to text file
+        
         public static void Log(string text)
         {
             File.AppendAllText("logs.txt", text + Environment.NewLine);
